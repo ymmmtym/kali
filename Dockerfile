@@ -1,4 +1,4 @@
-FROM kalilinux/kali-linux-docker:latest
+FROM kalilinux/kali-rolling:latest
 
 ENV HOSTNAME="kali" \
     PS1="[\u@\h \W]# "

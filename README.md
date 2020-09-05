@@ -1,6 +1,8 @@
 # Kali
-## Run Docker image
+
+## Run Docker Container
+
 ```bash
-docker build . -t yumemo/kali
-docker run -it -h kali --rm yumemo/kali bash
+docker pull ghcr.io/ymmmtym/kali
+docker run -it -h kali --rm ghcr.io/ymmmtym/kali bash
 ```
